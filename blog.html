@@ -10,7 +10,7 @@
 			<!-- Blog Header -->
 			<div class="mainHeader">
 			 <div id="header">
-				<h1 id="blog-title"><ItemPage><a href="<$BlogURL$>"></ItemPage><$BlogTitle$><ItemPage></a></ItemPage></h1>
+				<h1 id="blog-title"><a href="<$BlogURL$>"><$BlogTitle$></a></h1>
 				<p id="description"><$BlogDescription$></p>
 			 </div>
 			 <div id="headerNav">
@@ -30,7 +30,7 @@
 		<!-- Begin .post -->
 								 <div class="post">
 										<a name="<$BlogItemNumber$>"></a><BlogItemTitle><BlogItemUrl><a href="<$BlogItemUrl$>" title="external link" class="title-link"/></BlogItemUrl>
-										<h3 class="post-title"><$BlogItemTitle$></h3>
+										<div itemscope itemtype="http://schema.org/Thing"><h3 itemprop ="name" class="post-title"><$BlogItemTitle$></h3></div>
 										<BlogItemUrl></a></BlogItemUrl></BlogItemTitle>
 										<div class="post-body">
 											 <p><$BlogItemBody$></p>

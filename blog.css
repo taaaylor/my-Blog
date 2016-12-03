@@ -1,95 +1,103 @@
-a {
-				text-decoration:none;
-			}
+a 	{
+	text-decoration:none;
+	color:red;
+}
 
-			a:visited {
-				color:black;
-			}
+a:visited {
+	color:black;
+	color:red;
+}
 
-			a:hover {
-				color:grey;
-			}
+a:hover {
+	color:grey;
+}
 
-			body {
-				font-family: 'Halant', serif;
-			}
-			#content {
-				/*border:1px solid black;*/
-				width:80%;
-				margin-left:auto;
-				margin-right:auto;
-				margin-top:0;
-				padding:2%;
-			}
-			#header {
-				/*border:1px solid black;*/
-				width:50%;
-				margin-left:auto;
-				margin-right:auto;
-				padding-left:1%;
-				padding-right:1%;
-				text-align:center;
-			}
+.mainHeader #header h1 a {
+	color:black;
+}
 
-			#headernav {
-				/*border:1px solid black;*/
-				padding:1%;
-			}
+body {
+	font-family: 'Halant', serif;
+}
 
-			#headerNav table {
-				width:50%;
-				margin-left:auto;
-				margin-right:auto;
-			}
+#content {
+	/*border:1px solid black;*/
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0;
+	padding:2%;
+}
 
-			#headerNav table tr th {
-				/*border:1px solid black;*/
-			}
+#header {
+	/*border:1px solid black;*/
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:1%;
+	padding-right:1%;
+	text-align:center;
+}
 
-			th ul {
-				/*border:1px solid black;*/
-				list-style-type: none;
-				padding:0;
-			}
+#headernav {
+	/*border:1px solid black;*/
+	padding:1%;
+}
 
-			th ul li {
-				/*border:1px solid black;*/
-				padding:0;
-				margin:0;
-			}
+#headerNav table {
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+}
 
-			.headerNavTable {
-				/*border:1px solid black;*/
-				width:50%;
-				margin-left:auto;
-				margin-right:auto;
-			}
+#headerNav table tr th {
+	/*border:1px solid black;*/
+}
 
-			.filler {
-				width:25%;
-			}
+th ul {
+	/*border:1px solid black;*/
+	list-style-type: none;
+	padding:0;
+}
 
-			.post {
-				/*border:1px solid black;*/
-				padding-left:2%;
-				padding-right:2%;
-			}
+th ul li {
+	/*border:1px solid black;*/
+	padding:0;
+	margin:0;
+}
 
-			.post-title {
-				font-size:200%;
-			}
+.headerNavTable {
+	/*border:1px solid black;*/
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+}
 
-			.endHeader {
-				width:50%;
-			}
+.filler {
+	width:25%;
+}
 
-			.post-footer {
-				font-size:12px;
-			}
+.post {
+	/*border:1px solid black;*/
+	padding-left:2%;
+	padding-right:2%;
+}
 
-			.endPost {
-			}
+.post-title {
+	font-size:200%;
+}
 
-			#footer p {
-				text-align:center;
-			}
+.endHeader {
+	width:50%;
+}
+
+.post-footer {
+	font-size:12px;
+}
+
+.endPost {
+}
+
+#footer p {
+	text-align:center;
+}
